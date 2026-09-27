@@ -249,7 +249,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy"]
+        "factions": ["scumandvillainy","mandalorian"]
       }
     ],
     "standard": true,

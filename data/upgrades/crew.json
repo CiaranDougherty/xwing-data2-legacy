@@ -202,7 +202,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy"]
+        "factions": ["scumandvillainy","mandalorian"]
       }
     ],
     "standard": true,
@@ -932,7 +932,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy"]
+        "factions": ["scumandvillainy","mandalorian"]
       }
     ],
     "standard": true,
@@ -1404,7 +1404,7 @@
     },
     "restrictions": [
       {
-        "factions": ["rebelalliance"]
+        "factions": ["rebelalliance","mandalorian"]
       }
     ],
     "standard": true,
@@ -2903,7 +2903,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy", "galacticrepublic"]
+        "factions": ["scumandvillainy", "galacticrepublic","mandalorian"]
       }
     ],
     "standard": true,
@@ -2938,7 +2938,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy"]
+        "factions": ["scumandvillainy","mandalorian"]
       }
     ],
     "standard": true,
@@ -2968,7 +2968,7 @@
     },
     "restrictions": [
       {
-        "factions": ["galacticrepublic"]
+        "factions": ["galacticrepublic","mandalorian"]
       }
     ],
     "standard": true,
@@ -2994,7 +2994,7 @@
     },
     "restrictions": [
       {
-        "factions": ["galacticrepublic", "separatistalliance"]
+        "factions": ["galacticrepublic", "separatistalliance","mandalorian"]
       }
     ],
     "standard": true,
@@ -3020,7 +3020,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy", "rebelalliance"]
+        "factions": ["scumandvillainy", "rebelalliance","mandalorian"]
       }
     ],
     "standard": true,
@@ -3046,7 +3046,7 @@
     },
     "restrictions": [
       {
-        "factions": ["galacticrepublic"]
+        "factions": ["galacticrepublic","mandalorian"]
       }
     ],
     "standard": true,
@@ -3076,7 +3076,7 @@
     },
     "restrictions": [
       {
-        "factions": ["galacticrepublic"]
+        "factions": ["galacticrepublic","mandalorian"]
       }
     ],
     "standard": true,
@@ -3159,7 +3159,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy", "rebelalliance"]
+        "factions": ["scumandvillainy", "rebelalliance","mandalorian"]
       }
     ],
     "standard": true,
@@ -3220,7 +3220,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy", "separatistalliance"]
+        "factions": ["scumandvillainy", "separatistalliance","mandalorian"]
       }
     ],
     "standard": true,
@@ -3250,7 +3250,7 @@
     },
     "restrictions": [
       {
-        "factions": ["rebelalliance"],
+        "factions": ["rebelalliance","mandalorian"],
         "names": ["Gar Saxon"]
       }
     ],
@@ -3277,7 +3277,7 @@
     },
     "restrictions": [
       {
-        "factions": ["rebelalliance"]
+        "factions": ["rebelalliance","mandalorian"]
       }
     ],
     "standard": true,
@@ -3307,7 +3307,7 @@
     },
     "restrictions": [
       {
-        "factions": ["galacticempire"]
+        "factions": ["galacticempire","mandalorian"]
       }
     ],
     "standard": true,
@@ -3337,7 +3337,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy", "galacticrepublic"]
+        "factions": ["scumandvillainy", "galacticrepublic","mandalorian"]
       }
     ],
     "standard": true,
@@ -3440,7 +3440,7 @@
     },
     "restrictions": [
       {
-        "factions": ["rebelalliance"]
+        "factions": ["rebelalliance","mandalorian"]
       },
       {
         "sizes": ["Medium", "Large", "Huge"]
@@ -3564,7 +3564,7 @@
     },
     "restrictions": [
       {
-        "factions": ["scumandvillainy"]
+        "factions": ["scumandvillainy","mandalorian"]
       },
       {
         "sizes": ["Medium", "Large", "Huge"]
@@ -3626,7 +3626,7 @@
     },
     "restrictions": [
       {
-        "factions": ["galacticrepublic"]
+        "factions": ["galacticrepublic","mandalorian"]
       },
       {
         "sizes": ["Medium", "Large", "Huge"]
@@ -3688,7 +3688,7 @@
     },
     "restrictions": [
       {
-        "factions": ["separatistalliance"]
+        "factions": ["separatistalliance","mandalorian"]
       },
       {
         "sizes": ["Medium", "Large", "Huge"]

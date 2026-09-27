@@ -789,7 +789,7 @@
         "sizes": ["Large", "Huge"]
       },
       {
-        "factions": ["scumandvillainy"]
+        "factions": ["scumandvillainy","mandalorian"]
       }
     ],
     "standard": true,
@@ -845,7 +845,7 @@
     },
     "restrictions": [
       {
-        "factions": ["galacticrepublic", "separatistalliance"]
+        "factions": ["galacticrepublic", "separatistalliance","mandalorian"]
       }
     ],
     "standard": true,
