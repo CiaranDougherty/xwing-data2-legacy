@@ -1,0 +1,114 @@
+{
+  "name": "RZ-1 A-wing",
+  "xws": "rz1awing",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1YW",
+    "2TB",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YB",
+    "3LR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3PR",
+    "4FB",
+    "5FB",
+    "5KR"
+  ],
+  "dialCodes": ["AW"],
+  "faction": "mandalorian",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
+  ],
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_A-wing.png",
+  "pilots": [
+    {
+      "name": "Sabine Wren",
+      "xws": "sabinewren-rz1awing",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["A-wing", "Mandalorian"],
+      "cost": 35,
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
+      "ability": "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
+      "caption": "Daughter of Mandalore",
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/sabinewren-rz1awing.png",
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/sabinewren-rz1awing.png",
+      "epic": true
+    },
+    {
+      "name": "Ahsoka Tano",
+      "xws": "ahsokatano-rz1awing",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Fulcrum",
+      "standard": true,
+      "wildspace": true,
+      "force": {
+        "value": 3,
+        "recovers": 1
+      },
+      "cost": 50,
+      "slots": ["Force Power", "Force Power", "Missile", "Configuration"],
+      "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force]. That ship may perform an action, even while stressed.",
+      "keywords": ["A-wing", "Light Side"],
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/ahsokatano-rz1awing.png",
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/ahsokatano-rz1awing.png",
+      "epic": true
+    }
+  ]
+}

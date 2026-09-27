@@ -1,0 +1,105 @@
+{
+  "name": "Crusader-class Corvette",
+  "xws": "crusaderclasscorvette",
+  "faction": "mandalorian",
+  "icon": "",
+  "size": "Huge",
+  "dial": [
+    "0BR",
+    "0OR",
+    "0NR",
+    "1BW",
+    "1FB",
+    "1NW",
+    "2BR",
+    "2FB",
+    "2NR",
+    "3BR",
+    "3FB",
+    "3NR",
+    "4FW"
+  ],
+  "dialCodes": ["CRSD-M"],
+  "stats": [
+    {
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 19
+    },
+    {
+      "type": "shields",
+      "value": 7,
+      "recovers": 2
+    },
+    {
+      "type": "energy",
+      "value": 7,
+      "recovers": 2
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate"
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Mandalorian Sector Patrol",
+      "initiative": 8,
+      "cost": 134,
+      "limited": 0,
+      "artwork": "",
+      "image": "",
+      "shipAbility": {
+        "name": "Point Defense Array",
+        "text": "Your primary attack may only attack in your [Left Arc], [Right Arc], or [Front Arc], and convert all [Crit] results against Huge ships to [Hit] results. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy].Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 2 [Energy]."
+      },
+      "text": "Fiercely independent and martially minded, the Mandalorians jealously defended their sector with the best combat spacecraft available.",
+      "standard": false,
+      "wildspace": false,
+      "epic": true,
+      "engagement": 0,
+      "xws": "mandosectorpatrol",
+      "slots": [
+        "Command",
+        "Torpedo",
+        "Missile",
+        "Hardpoint",
+        "Hardpoint",
+        "Gunner",
+        "Crew",
+        "Crew",
+        "Team",
+        "Team",
+        "Cargo",
+        "Cargo",
+        "Title"
+      ]
+    }
+  ]
+}

@@ -318,7 +318,7 @@
         "sizes": ["Huge"]
       },
       {
-        "ships": ["tridentclassassaultship"]
+        "ships": ["tridentclassassaultship","crusaderclasscorvette"]
       }
     ],
     "standard": false,

@@ -146,6 +146,30 @@
         "data/pilots/galactic-republic/nimbus-class-v-wing.json",
         "data/pilots/galactic-republic/syliure-class-hyperspace-ring.json",
         "data/pilots/galactic-republic/clone-z-95-headhunter.json"
+      ] 
+    },
+    {
+      "faction": "mandalorian",
+      "ships": [
+        //"data/pilots/mandalorian/aggressor-assault-fighter.json", //revise?
+        //"data/pilots/mandalorian/aka'jor.json",
+        "data/pilots/mandalorian/bes'uliik.json",
+        //"data/pilots/mandalorian/cabur-class-assault-ship.json"
+        "data/pilots/mandalorian/crusader-corvette.json",
+        "data/pilots/mandalorian/fang-fighter.json", //import all
+        //"data/pilots/mandalorian/firespray-class-patrol-craft.json", //Import Boba Fett only?
+        //"data/pilots/mandalorian/gauntlet-fighter.json", //import all, possibly excluding some Imp pilots
+        "data/pilots/mandalorian/gladiator.json",
+        "data/pilots/mandalorian/gozanti-class-cruiser.json", //"Mandalorian Hijackers"? "Nightowl Liberators"?
+        "data/pilots/mandalorian/kihraxz-fighter.json", //Import Viktor Hel only
+        //"data/pilots/mandalorian/kom'rk.json"
+        "data/pilots/mandalorian/lancer-class-pursuit-craft.json", //Sabine & Ketsu
+        //"data/pilots/mandalorian/pursuer.json",
+        "data/pilots/mandalorian/rogue-class-starfighter.json", //Import Viktor Hel only
+        "data/pilots/mandalorian/rz-1-a-wing.json", // Import Sabine & Ahsoka only
+        "data/pilots/mandalorian/starviper-class-attack-platform.json", //??
+        "data/pilots/mandalorian/tra'kad.json"
+        
       ]
     }
   ],
