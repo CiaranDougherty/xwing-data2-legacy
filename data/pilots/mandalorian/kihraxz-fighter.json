@@ -1,0 +1,84 @@
+{
+  "name": "Kihraxz Fighter",
+  "xws": "kihraxzfighter",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1BB",
+    "1NB",
+    "1YW",
+    "2ER",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "2RR",
+    "3BW",
+    "3FB",
+    "3NW",
+    "4FW",
+    "4KR"
+  ],
+  "dialCodes": ["KXZ"],
+  "faction": "mandalorian",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    }
+  ],
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Kihraxz.png",
+  "pilots": [
+    {
+      "name": "Viktor Hel",
+      "caption": "Storied Bounty Hunter",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 42,
+      "xws": "viktorhel",
+      "ability": "After you defend, if you did not roll exactly 2 defense dice, the attacker gains 1 stress token.",
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/viktorhel.png",
+      "slots": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Illicit",
+        "Modification",
+        "Modification"
+      ],
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/viktorhel.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Bounty Hunter","Mandalorian"],
+      "epic": true
+    }
+  ]
+}

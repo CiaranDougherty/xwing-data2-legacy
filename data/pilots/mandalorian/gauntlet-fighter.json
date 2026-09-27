@@ -1,0 +1,302 @@
+{
+  "name": "Gauntlet Fighter",
+  "xws": "gauntletfighter",
+  "size": "Large",
+  "dial": [
+    "0OR",
+    "1BB",
+    "1NB",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "4FW"
+  ],
+  "dialCodes": ["GtF"],
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_GauntletFighter.png",
+  "faction": "mandalorian",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Captain Hark",
+      "caption": "Obedient Underling",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 53,
+      "xws": "captainhark",
+      "ability": "After you reveal a [0 [Stationary]] maneuver, if you are equipped with Swivel Wings (Down), you must execute a [1 [Bank Left]] or [1 [Bank Right]] sideslip maneuver of the same difficulty instead. After you execute that maneuver, you must flip Swivel Wings (Down).",
+      "standard": true,
+      "wildspace": true,
+      "epic": true,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Modification",
+        "Title",
+        "Configuration"
+      ],
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/captainhark.png",
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/captainhark.png",
+      "keywords": ["Mandalorian"]
+    },
+    {
+      "name": "Gar Saxon",
+      "caption": "Treacherous Viceroy",
+      "charges": {
+        "value": 2,
+        "recovers": 1
+      },
+      "initiative": 3,
+      "limited": 1,
+      "cost": 61,
+      "xws": "garsaxon",
+      "ability": "When a friendly unit at range 0-2 performs a primary attack, if the attacker is in the defender's [Rear Arc], you may spend 1 [Charge]. If you do, the attacker rolls 1 additional die.",
+      "standard": true,
+      "wildspace": true,
+      "epic": true,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Modification",
+        "Title",
+        "Configuration"
+      ],
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/garsaxon.png",
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/garsaxon.png",
+      "keywords": ["Mandalorian"]
+    },
+    {
+      "name": "Mandalorian Resistance Pilot",
+      "caption": "Clan Loyalist",
+      "initiative": 2,
+      "limited": 0,
+      "cost": 54,
+      "xws": "mandalorianresistancepilot",
+      "text": "Some Mandalorian warriors, such as those of Clan Kryze, remain unbowed and continue to fight the collaborationist rule of Clan Saxon and its Imperial masters. The Gauntlet Fighter's mix of firepower and speed makes it an ideal transport for their raids.",
+      "standard": true,
+      "wildspace": true,
+      "epic": true,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Modification",
+        "Configuration",
+        "Title"
+      ],
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/mandalorianresistancepilot.png",
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/mandalorianresistancepilot.png",
+      "keywords": ["Mandalorian"]
+    },
+    {
+      "name": "Bo-Katan Kryze",
+      "caption": "Nite Owl Commander",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 56,
+      "xws": "bokatankryze",
+      "ability": "After you fully execute a maneuver, you may gain 1 deplete token to choose an object in your [Front Arc] at range 1-2. If you do, another friendly ship may perform a [Lock] action to lock that object.",
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Configuration",
+        "Title"
+      ],
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/bokatankryze.png",
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/bokatankryze.png",
+      "keywords": ["Mandalorian"],
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Bo-Katan Kryze",
+      "caption": "Vizsla's Lieutenant",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 57,
+      "xws": "bokatankryze-separatistalliance",
+      "ability": "Before a friendly ship at range 0-2 activates, you may spend 1 [Charge]. If you do, that ship may gain 1 strain token to remove 1 non-stress red or orange token.",
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Configuration",
+        "Title"
+      ],
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/bokatankryze-separatistalliance.png",
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/bokatankryze-separatistalliance.png",
+      "keywords": ["Mandalorian"],
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Nite Owl Liberator",
+      "caption": "Resolute Warrior",
+      "initiative": 2,
+      "limited": 1,
+      "cost": 54,
+      "xws": "niteowlliberator",
+      "text": "Following Bo-Katan Kryze, some former members of Death Watch have rejected Maul's claims to rule Mandalore and made a reluctant alliance with the Republic. The Gauntlet Fighters that the Nite Owls retain are central to mounting an invasion to free their world.",
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Configuration",
+        "Title"
+      ],
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/niteowlliberator.png",
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/niteowlliberator.png",
+      "keywords": ["Mandalorian"],
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Pre Vizsla",
+      "caption": "Leader of Death Watch",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 61,
+      "xws": "previzsla",
+      "ability": "While you perform an attack, if the defender's initiative is equal to or greater than yours, you may spend 2  to roll 1 additional die.",
+      "charges": {
+        "value": 2,
+        "recovers": 1
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Configuration",
+        "Title"
+      ],
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/previzsla.png",
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/previzsla.png",
+      "keywords": ["Mandalorian"],
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Death Watch Warrior",
+      "caption": "Fanatical Adherent",
+      "initiative": 1,
+      "limited": 0,
+      "cost": 53,
+      "xws": "deathwatchwarrior",
+      "text": "Despite uncertain Separatist support, the Death Watch plots to restore Mandalore's warrior past and traditions. The Gauntlet Fighter's maneuverability and drop seats make it an excellent platform to deploy these proud commandos into battle.",
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Configuration",
+        "Title"
+      ],
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/deathwatchwarrior.png",
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/deathwatchwarrior.png",
+      "keywords": ["Mandalorian"],
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Rook Kast",
+      "caption": "Stoic Super Commando",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 61,
+      "xws": "rookkast",
+      "ability": "Before you engage, you may gain 1 strain token. While you perform a primary attack, if you are strained, you may change 1 of your blank or [Focus] results to a [Hit] result.",
+      "standard": true,
+      "wildspace": true,
+      "epic": true,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Device",
+        "Modification",
+        "Configuration",
+        "Title"
+      ],
+      "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/rookkast.png",
+      "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/rookkast.png",
+      "keywords": ["Mandalorian"]
+    }
+  ]
+}

@@ -33,5 +33,10 @@
     "name": "Separatist Alliance",
     "xws": "separatistalliance",
     "icon": "https://infinitearenas.com/xw2/images/artwork/faction-icons/SeparatistIcon.png"
+  },
+  {
+    "name": "Mandalorians",
+    "xws": "mandalorian",
+    "icon": "tbd"
   }
 ]
