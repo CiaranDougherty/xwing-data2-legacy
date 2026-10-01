@@ -1,6 +1,6 @@
 {
   "name": "Naboo Royal N-1 Starfighter",
-  "xws": "nabooroyaln1starfighter",
+  "xws": "customizedn1starfighter",
   "size": "Small",
   "dial": [
     "1BW",
@@ -22,7 +22,7 @@
     "5FW",
     "5KR" // customization
   ],
-  "dialCodes": ["N1-M"],
+  "dialCodes": ["CN1"],
   "faction": "mandalorian",
   "stats": [
     {

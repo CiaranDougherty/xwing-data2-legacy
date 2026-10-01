@@ -1977,7 +1977,7 @@
     },
     "restrictions": [
       {
-        "factions": ["galacticrepublic", "separatistalliance"]
+        "factions": ["galacticrepublic", "separatistalliance","mandalorian"]
       },
       {
         "ships": ["gauntletfighter"]
