@@ -56,7 +56,7 @@
       }
     ],
     "cost": {
-      "value": 7
+      "value": 5
     },
     "standard": true,
     "wildspace": true,
@@ -291,7 +291,17 @@
     },
     "standard": true,
     "wildspace": true,
-    "epic": true
+    "epic": true,
+    "restrictions": [
+      {
+        "sizes": ["Small"]
+      },
+      {
+        "action": {
+          "type": "Boost"
+        }
+      }
+    ]
   },
   {
     "name": "Compassion",
